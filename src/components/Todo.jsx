@@ -41,7 +41,7 @@ const Todo = () => {
         localStorage.setItem("todos", JSON.stringify(todolist));
     }, [todolist]);
 return (
-    <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
+    <div className='bg-white place-self-center w-11/12 sm:max-w-sm md:max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
             <div className="flex items-center mt-7 gap-2"> 
                     <img src={calendar_minus} />
                     <h1 className='text-3xl font-semibold pl-3'> To Do List  </h1>
