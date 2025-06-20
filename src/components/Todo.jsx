@@ -1,6 +1,6 @@
 import React from 'react'
 import calendar_minus from '../assets/calendar_minus.png'
-import Todoitems from './todoitems'
+import Todoitems from './Todoitems'
 import { useEffect, useRef, useState} from 'react'
 const Todo = () => {
     const [todolist, settodolist] = useState(localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : []);
